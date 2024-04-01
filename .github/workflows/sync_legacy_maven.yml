@@ -1,0 +1,46 @@
+name: Sync COVID-Trump/mvn Repository
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sync_repo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout current repository
+      uses: actions/checkout@v3
+      with:
+        ref: main
+        token: ${{ secrets.ACCESS_TOKEN }}
+        
+    - name: Remove existing files except .git directory
+      run: |
+        # 移动到上一层目录
+        #cd ..
+        # 删除仓库目录中的文件，但保留.git目录
+        find . -maxdepth 1 -not -name '.git' -not -name '.' -exec rm -rf {} \;
+        # 移回到仓库目录
+        #cd -
+    - name: Clone COVID-Trump/mvn repository
+      run: |
+        git clone https://github.com/COVID-Trump/mvn.git trump
+        rm -rf trump/.git
+        mv trump/* .
+        ls trump
+        rm trump -rf
+      
+    - name: Set up Git user
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "GitHub Action"
+        
+    - name: Add and commit changes
+      run: |
+        git add .
+        git commit -m "Sync with COVID-Trump/mvn repository"
+        
+    - name: Push changes to repository
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        branch: main
