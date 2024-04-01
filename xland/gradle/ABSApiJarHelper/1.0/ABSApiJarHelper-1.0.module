@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xland.gradle",
+    "module": "ABSApiJarHelper",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ABSApiJarHelper-1.0.jar",
+          "url": "ABSApiJarHelper-1.0.jar",
+          "size": 14357,
+          "sha512": "0710ea595748f34c1122b29467cc56078b2a334a0e167a4eb9a66ed8c43a634141b9aa666d14be5cbd3b68067272e8c3ec3b09be3a8f2e7f8b812b1e1c1a2469",
+          "sha256": "8d5f350a92b4f1c6dc7618312205ea1cb95fe6fb69aa9bb2675b8883407c7887",
+          "sha1": "3825067f3f49257c608ed030760dace2b38b826e",
+          "md5": "95ad469a22e48de8609e57513f4e2fca"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ABSApiJarHelper-1.0.jar",
+          "url": "ABSApiJarHelper-1.0.jar",
+          "size": 14357,
+          "sha512": "0710ea595748f34c1122b29467cc56078b2a334a0e167a4eb9a66ed8c43a634141b9aa666d14be5cbd3b68067272e8c3ec3b09be3a8f2e7f8b812b1e1c1a2469",
+          "sha256": "8d5f350a92b4f1c6dc7618312205ea1cb95fe6fb69aa9bb2675b8883407c7887",
+          "sha1": "3825067f3f49257c608ed030760dace2b38b826e",
+          "md5": "95ad469a22e48de8609e57513f4e2fca"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ABSApiJarHelper-1.0-sources.jar",
+          "url": "ABSApiJarHelper-1.0-sources.jar",
+          "size": 7527,
+          "sha512": "83260b628daf5731d5e31427ee9ee7aa79cbfc7b2f8057658695a7157f336ea4f57db5cae5a932b6a41b4b933d1ef47b44408f1d3d81eabf4514094ae7dce4b3",
+          "sha256": "1bbcaf4ff3c485cd1998a6fcd03d83f973777482eee56b9f249f5271c3b9edb3",
+          "sha1": "83aea1ea465b54656d631072f0cf6067dbfa0876",
+          "md5": "26d1965c38f091cbb2854552cf0a6895"
+        }
+      ]
+    }
+  ]
+}

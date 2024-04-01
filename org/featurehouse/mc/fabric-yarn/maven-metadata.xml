@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.featurehouse.mc</groupId>
+  <artifactId>fabric-yarn</artifactId>
+  <versioning>
+    <latest>21w14a_01+1_featurehouse</latest>
+    <release>21w14a_01+1_featurehouse</release>
+    <versions>
+      <version>21w14a_01+1_featurehouse</version>
+    </versions>
+    <lastUpdated>20210410084947</lastUpdated>
+  </versioning>
+</metadata>

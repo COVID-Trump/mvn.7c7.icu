@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Jan 21 09:52:16 CST 2021
+junit-4.12.pom>mavenCentral=
+junit-4.12.jar>mavenCentral=
+junit-4.12-sources.jar>mavenCentral=
+junit-4.12-javadoc.jar>mavenCentral=
