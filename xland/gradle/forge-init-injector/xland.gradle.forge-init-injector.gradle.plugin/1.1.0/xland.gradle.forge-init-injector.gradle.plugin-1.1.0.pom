@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>xland.gradle.forge-init-injector</groupId>
+  <artifactId>xland.gradle.forge-init-injector.gradle.plugin</artifactId>
+  <version>1.1.0</version>
+  <packaging>pom</packaging>
+  <name>Forge Init Injector</name>
+  <description>Add Forge initializer to the mods that doesn't introduce Forge dependency</description>
+  <dependencies>
+    <dependency>
+      <groupId>xland.gradle</groupId>
+      <artifactId>forge-init-injector</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+  </dependencies>
+</project>
