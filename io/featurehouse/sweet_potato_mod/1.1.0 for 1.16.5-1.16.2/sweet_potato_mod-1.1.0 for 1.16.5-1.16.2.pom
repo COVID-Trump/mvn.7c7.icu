@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.featurehouse</groupId>
+  <artifactId>sweet_potato_mod</artifactId>
+  <version>1.1.0 for 1.16.5-1.16.2</version>
+  <name>Sweet Potato Mod</name>
+  <developers>
+  	<developer>
+  	  <name>Teddy Li</name>
+  	  <id>teddyxlandlee</id>
+  	  <email>tedexe_work.top@foxmail.com</email>
+  	  <organization>Pigeonia Featurehouse</organization>
+  	  <roles>
+  	  	<role>Java Developer</role>
+  	  </roles>
+  	</developer>
+	<developer>
+	  <name>Ray MHF Chen</name>
+	  <id>Rayawa</id>
+	  <email>Rayawa.work@gmail.com</email>
+	  <organization>Pigeonia Featurehouse</organization>
+	  <roles>
+	    <role>Chief Creative Officer</role>
+	  </roles>
+	</developer>
+  </developers>
+</project>

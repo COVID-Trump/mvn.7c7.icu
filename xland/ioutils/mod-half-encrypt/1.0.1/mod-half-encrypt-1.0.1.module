@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xland.ioutils",
+    "module": "mod-half-encrypt",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "mod-half-encrypt-1.0.1.jar",
+          "url": "mod-half-encrypt-1.0.1.jar",
+          "size": 65446,
+          "sha512": "179fb849204fedef1fc5c9926e2d4a2b639f70d375efd5fae782795a90565ed093dfaa594d7e8a139feb419584893642acc3600e7200ee41627b8eeb28921b17",
+          "sha256": "fad01ee8682a83d873e9c507d62ea691d941c776d074fe2b1e152f6bde34c090",
+          "sha1": "93026a3db1aca4a3dc157e67eef8e50074589dc4",
+          "md5": "d24d9b81f40aec07542b20842f87cb9b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mod-half-encrypt-1.0.1.jar",
+          "url": "mod-half-encrypt-1.0.1.jar",
+          "size": 65446,
+          "sha512": "179fb849204fedef1fc5c9926e2d4a2b639f70d375efd5fae782795a90565ed093dfaa594d7e8a139feb419584893642acc3600e7200ee41627b8eeb28921b17",
+          "sha256": "fad01ee8682a83d873e9c507d62ea691d941c776d074fe2b1e152f6bde34c090",
+          "sha1": "93026a3db1aca4a3dc157e67eef8e50074589dc4",
+          "md5": "d24d9b81f40aec07542b20842f87cb9b"
+        }
+      ]
+    }
+  ]
+}

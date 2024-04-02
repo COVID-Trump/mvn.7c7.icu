@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Jul 24 21:56:14 CST 2021
+guava-21.0-sources.jar>papermc-repo=
+guava-21.0-javadoc.jar>papermc-repo=
+guava-21.0.pom>papermc-repo=
+guava-21.0.jar>papermc-repo=

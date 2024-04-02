@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.coderbot</groupId>
+  <artifactId>iris</artifactId>
+  <version>1.18-1.1.3</version>
+  <name>Iris Shaders</name>
+  <repositories>
+    <repository>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <id>FabricMC</id>
+      <name>FabricMC</name>
+      <url>https://maven.fabricmc.net/</url>
+    </repository>
+  </repositories>
+  
+  <dependencies>
+	<dependency>
+	  <groupId>net.fabricmc.fabric-api</groupId>
+	  <artifactId>fabric-resource-loader-v0</artifactId>
+	  <version>0.4.11+3ac43d956d</version>
+	</dependency>
+	<dependency>
+	  <groupId>net.fabricmc.fabric-api</groupId>
+	  <artifactId>fabric-key-binding-api-v1</artifactId>
+	  <version>1.0.7+3ac43d956d</version>
+	</dependency>
+  </dependencies>
+</project>
