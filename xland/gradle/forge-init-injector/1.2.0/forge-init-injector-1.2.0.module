@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xland.gradle",
+    "module": "forge-init-injector",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "forge-init-injector-1.2.0.jar",
+          "url": "forge-init-injector-1.2.0.jar",
+          "size": 48753,
+          "sha512": "fc933c0c359606f8b3da3f2edb3fd4e5ccc8fc765ee8812080e213529bd0a9cf432d293cc50f4b9ee042f154417067994075271daa1e99e3aa98355f38c08ac9",
+          "sha256": "9c38f7a9b372feacea3cc7c6018461135b4a78a83521fb28f68e3a6cf0365c31",
+          "sha1": "5564dd306107b5e1cc9a3eb3da1af9c028ddb536",
+          "md5": "f50e37665b2e905742465d8f34c6369c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "forge-init-injector-1.2.0.jar",
+          "url": "forge-init-injector-1.2.0.jar",
+          "size": 48753,
+          "sha512": "fc933c0c359606f8b3da3f2edb3fd4e5ccc8fc765ee8812080e213529bd0a9cf432d293cc50f4b9ee042f154417067994075271daa1e99e3aa98355f38c08ac9",
+          "sha256": "9c38f7a9b372feacea3cc7c6018461135b4a78a83521fb28f68e3a6cf0365c31",
+          "sha1": "5564dd306107b5e1cc9a3eb3da1af9c028ddb536",
+          "md5": "f50e37665b2e905742465d8f34c6369c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "forge-init-injector-1.2.0-sources.jar",
+          "url": "forge-init-injector-1.2.0-sources.jar",
+          "size": 10587,
+          "sha512": "3cc20217a22f347397d05945b624393c8f2e55b615bfec14d58b2ba9001eab0cbcdc8dc683be6a953f675962a2375737c7cfafcd00787e263c617ccfcd461663",
+          "sha256": "30647eb416a6a3dfda3e0df43a86ffc5fe73a12d3358246c386d822a44904c45",
+          "sha1": "c16dbb9a292f7d284a249b74c2c2787d2d0eb501",
+          "md5": "29b2bba9906617ac32efda7aa1d922e4"
+        }
+      ]
+    }
+  ]
+}
