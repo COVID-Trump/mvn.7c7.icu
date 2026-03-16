@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "icu.7c7.mcdev",
+    "module": "lowcode-universal",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lowcode-universal-1.0.0.jar",
+          "url": "lowcode-universal-1.0.0.jar",
+          "size": 35471,
+          "sha512": "9c87bc04b83da6b711bf124be2012287b919b8da05947a49523e614d5a43e4b9538dd15e436c8e624dd7938d98c8984d400c9e4ef5a3404802471c8264bc5ba8",
+          "sha256": "447fc4500df861a135a89d16d4d68a60d2d9cd1eae07bc2c2284003b51d50539",
+          "sha1": "ee7535f3a7a1c85ede31bd854d2646015e4bb3b5",
+          "md5": "5a50c3684222ab04fa6e35da66f5bb4f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lowcode-universal-1.0.0.jar",
+          "url": "lowcode-universal-1.0.0.jar",
+          "size": 35471,
+          "sha512": "9c87bc04b83da6b711bf124be2012287b919b8da05947a49523e614d5a43e4b9538dd15e436c8e624dd7938d98c8984d400c9e4ef5a3404802471c8264bc5ba8",
+          "sha256": "447fc4500df861a135a89d16d4d68a60d2d9cd1eae07bc2c2284003b51d50539",
+          "sha1": "ee7535f3a7a1c85ede31bd854d2646015e4bb3b5",
+          "md5": "5a50c3684222ab04fa6e35da66f5bb4f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lowcode-universal-1.0.0-sources.jar",
+          "url": "lowcode-universal-1.0.0-sources.jar",
+          "size": 18775,
+          "sha512": "c7b453a53ee969ce0f8e512d4a948f7beba20716e650f5e8474d91cd9853717f4f07d6221e373ad81bf0813aaa109dd7e473a700ed6cb6540991325491fecd8d",
+          "sha256": "9912fa362fe1e54babd5bc70c05922d90a3b07b1fab8f36309741f21eeebbaba",
+          "sha1": "8d85456b7466881977f870bf49b229b8d6e9b0aa",
+          "md5": "7725510533d76850f7dd64a6fcc780e7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xland.ioutils",
+    "module": "XDecompiler",
+    "version": "1.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "XDecompiler-1.6.2.jar",
+          "url": "XDecompiler-1.6.2.jar",
+          "size": 183631,
+          "sha512": "e4f3aeba3081b81e0852fad36a52c6de436742fdfb689e015132151c08beabff403c7dade707a6f458deb20c03d551a41105edd06313f8a94dec85dc5066b136",
+          "sha256": "9c910de678303b5a5a126e2c21e5c9f36cead444747373c0d6a31279243b7715",
+          "sha1": "fe8041ad588685c42f2276864e6e76f15e6b8675",
+          "md5": "c8a188e3bf7c424ef6663618f36125b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "mapping-io",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-remapper",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.9.1"
+          }
+        },
+        {
+          "group": "org.sharegov",
+          "module": "mjson",
+          "version": {
+            "requires": "1.4.2"
+          },
+          "excludes": [
+            {
+              "group": "junit",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "2.0.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "XDecompiler-1.6.2.jar",
+          "url": "XDecompiler-1.6.2.jar",
+          "size": 183631,
+          "sha512": "e4f3aeba3081b81e0852fad36a52c6de436742fdfb689e015132151c08beabff403c7dade707a6f458deb20c03d551a41105edd06313f8a94dec85dc5066b136",
+          "sha256": "9c910de678303b5a5a126e2c21e5c9f36cead444747373c0d6a31279243b7715",
+          "sha1": "fe8041ad588685c42f2276864e6e76f15e6b8675",
+          "md5": "c8a188e3bf7c424ef6663618f36125b1"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "XDecompiler-1.6.2-fat.jar",
+          "url": "XDecompiler-1.6.2-fat.jar",
+          "size": 1272443,
+          "sha512": "086b738ff622858ea96ed98a237f829441be927b294826fc3d3f799c1e2c6e6a4aae0f034f58385e8008ce4a722954af96231093a9d75b09303424fdb5473194",
+          "sha256": "6e35be7cf5325bd06f810e24adbb573ca416420024dad15d22a99803fb05f85b",
+          "sha1": "e710a623015dd94f699cb8a8828275319b202234",
+          "md5": "23c6118556ad2bb39b46cfc36d3f6022"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Jul 24 21:56:56 CST 2021
+json-simple-1.1.1.jar>papermc-repo=
+json-simple-1.1.1-sources.jar>papermc-repo=
+json-simple-1.1.1-javadoc.jar>papermc-repo=
+json-simple-1.1.1.pom>papermc-repo=

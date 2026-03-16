@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Jan 21 09:52:16 CST 2021
+kotlin-test-1.4.21.pom>mavenCentral=
+kotlin-test-1.4.21.jar>mavenCentral=
+kotlin-test-1.4.21-javadoc.jar>mavenCentral=
+kotlin-test-1.4.21-sources.jar>mavenCentral=

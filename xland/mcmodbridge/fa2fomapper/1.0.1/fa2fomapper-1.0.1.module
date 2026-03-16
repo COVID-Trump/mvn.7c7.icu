@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xland.mcmodbridge",
+    "module": "fa2fomapper",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fa2fomapper-1.0.1.jar",
+          "url": "fa2fomapper-1.0.1.jar",
+          "size": 25304,
+          "sha512": "5478cd79211ced3a427df71ad356de27925d8914147b22bd8692b4a1c72887b29f021f6f0e3bd98dbbff35b71f2903c3ba3a229ca1a2fd4aea45cf1504dcd379",
+          "sha256": "04bc48504086ccf433e0b5ed7f33311dd235d6da420f211683a9519c12abce88",
+          "sha1": "3daf76c0d216cd60ba58f269afc2e35e2c3806fb",
+          "md5": "f7ff7fc1f8411ab7c7baccd1b43c7e1b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "cpw.mods",
+          "module": "modlauncher",
+          "version": {
+            "requires": "8.1.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fa2fomapper-1.0.1.jar",
+          "url": "fa2fomapper-1.0.1.jar",
+          "size": 25304,
+          "sha512": "5478cd79211ced3a427df71ad356de27925d8914147b22bd8692b4a1c72887b29f021f6f0e3bd98dbbff35b71f2903c3ba3a229ca1a2fd4aea45cf1504dcd379",
+          "sha256": "04bc48504086ccf433e0b5ed7f33311dd235d6da420f211683a9519c12abce88",
+          "sha1": "3daf76c0d216cd60ba58f269afc2e35e2c3806fb",
+          "md5": "f7ff7fc1f8411ab7c7baccd1b43c7e1b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fa2fomapper-1.0.1-sources.jar",
+          "url": "fa2fomapper-1.0.1-sources.jar",
+          "size": 11311,
+          "sha512": "44f541261b44b40eacdd5a659be5621bd3eddb87d1a1821429147c39a4b8b3a0bc6e1a7b44462c996dde82bacf532de974904d88d2b528da5f0163d0bc454ea1",
+          "sha256": "1a70f19149497489d8515879d4311e2214f203039ebfd13102b146fd5531a848",
+          "sha1": "2f281f99a0a58a0c21194ceca0be7ff3a20821a1",
+          "md5": "54c9083eb2d2b86d278f59b38d4053b7"
+        }
+      ]
+    }
+  ]
+}
