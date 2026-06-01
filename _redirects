@@ -1,0 +1,2 @@
+# We're migrating the legacy domain (mvn.7c7.icu) to the new one (maven.hixland.com)
+https://mvn.7c7.icu/* https://maven.hixland.com/:splat 301!
