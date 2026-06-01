@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xland.mcmodbridge",
+    "module": "fabric-distmarker",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fabric-distmarker-0.1.0.jar",
+          "url": "fabric-distmarker-0.1.0.jar",
+          "size": 2673,
+          "sha512": "12e62f24c1a7aa8cc087c2d26c1ecef21dbc954505b218c01cd3ebb5bdcc15d3da6f74d4adac758ef76d9d601b738aff5b44a97f734bf74b74f41f7152a97f3c",
+          "sha256": "13a39f4654d8315c0557bad203965baf5ab9651fbc366f549b070ed443ce045d",
+          "sha1": "5dc0ce5f7ed65bca2f49e1523e707eb147dffef0",
+          "md5": "56da4b50f2e44e7a53d7f355454dbce2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-distmarker-0.1.0.jar",
+          "url": "fabric-distmarker-0.1.0.jar",
+          "size": 2673,
+          "sha512": "12e62f24c1a7aa8cc087c2d26c1ecef21dbc954505b218c01cd3ebb5bdcc15d3da6f74d4adac758ef76d9d601b738aff5b44a97f734bf74b74f41f7152a97f3c",
+          "sha256": "13a39f4654d8315c0557bad203965baf5ab9651fbc366f549b070ed443ce045d",
+          "sha1": "5dc0ce5f7ed65bca2f49e1523e707eb147dffef0",
+          "md5": "56da4b50f2e44e7a53d7f355454dbce2"
+        }
+      ]
+    }
+  ]
+}

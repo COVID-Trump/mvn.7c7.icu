@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xland.gradle",
+    "module": "ABSScripts",
+    "version": "6.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ABSScripts-6.0.0.jar",
+          "url": "ABSScripts-6.0.0.jar",
+          "size": 29487,
+          "sha512": "faa848fff3b6b38da586749da9c9d876992a6c96984d6e02c1b29de610e1369b3c1e4b4653227aba41ae48df2d7a1cee50efcc62ddf3350c798d515083ad5c85",
+          "sha256": "a8e2e218fa74275749a7eb7ef57466165527e871e3e199b7527ab391afa1250a",
+          "sha1": "634d0fc2a39057e364123927d652520403388cab",
+          "md5": "327f08c85b23f5dcfbf1a3a427b35952"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "xland.ioutils",
+          "module": "mod-half-encrypt",
+          "version": {
+            "requires": "1.0.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ABSScripts-6.0.0.jar",
+          "url": "ABSScripts-6.0.0.jar",
+          "size": 29487,
+          "sha512": "faa848fff3b6b38da586749da9c9d876992a6c96984d6e02c1b29de610e1369b3c1e4b4653227aba41ae48df2d7a1cee50efcc62ddf3350c798d515083ad5c85",
+          "sha256": "a8e2e218fa74275749a7eb7ef57466165527e871e3e199b7527ab391afa1250a",
+          "sha1": "634d0fc2a39057e364123927d652520403388cab",
+          "md5": "327f08c85b23f5dcfbf1a3a427b35952"
+        }
+      ]
+    }
+  ]
+}

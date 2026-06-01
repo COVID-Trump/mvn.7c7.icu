@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Feb 16 21:14:46 CST 2021
+annotations-13.0-sources.jar>mavenCentral=
+annotations-13.0-javadoc.jar>mavenCentral=
+annotations-13.0.jar>mavenCentral=
+annotations-13.0-sources.jar>central=
+annotations-13.0.pom>mavenCentral=
+annotations-13.0-javadoc.jar>central=
+annotations-13.0.pom>central=
+annotations-13.0.jar>central=
