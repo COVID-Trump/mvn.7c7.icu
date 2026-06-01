@@ -1,3 +1,6 @@
+# We're migrating the legacy domain (mvn.7c7.icu) to the new one (maven.hixland.com)
+https://mvn.7c7.icu/* https://maven.hixland.com/:splat 301!
+
 # Modrinth maven
 /xland/mcplugin/PaperSpeedZero/* https://api.modrinth.com/maven/maven/modrinth/paperspeed-zero/:splat
 /xland/mcplugin/Manhunt6/* https://api.modrinth.com/maven/maven/modrinth/manhunt6/:splat
