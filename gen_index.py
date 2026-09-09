@@ -39,6 +39,9 @@ def generate_index(directory: str, root_dir: str) -> None:
     for entry in entries:
         full = os.path.join(directory, entry)
         if os.path.isdir(full):
+            # Ignore internal directories at root dir
+            if directory == root_dir and entry in ('.git', '.netlify', '.github'):
+                continue
             dirs.append(entry)
         else:
             # Root directory index ignores non-directory files
